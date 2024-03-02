@@ -30,6 +30,9 @@ class ArmySoldier extends ArmyPerson{
 }
 }
 
+let newSoldierHagit = new ArmySoldier("Hagit","Cohen","0541258745","hatzerim", 1200, "none",new Date(2023,3,2),new Date(2025,3,2))
+let newSoldierMatti= new ArmySoldier("Matti", "levi","05412587778", "hatzerim",1200, "none", new Date(2024,3,2),new Date(2026,3,2) )
 
-
+console.log(newSoldierHagit)
+console.log(newSoldierMatti)
 
